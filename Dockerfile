@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17-slim
-COPY --from=build /target/LoginPage-0.0.1-SNAPSHOT.jar loginpage.jar
+COPY --from=build /target/remote-0.0.1-SNAPSHOT.jar remote.jar
 EXPOSE 9040
-ENTRYPOINT ["java","-jar","loginpage.jar"]
+ENTRYPOINT ["java","-jar","remote.jar"]

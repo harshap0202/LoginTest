@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>LoginPage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>LoginPage</name>
+	<name>remote</name>
 	<description>Backup Project for Login</description>
 	<properties>
 		<java.version>17</java.version>
